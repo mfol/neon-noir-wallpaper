@@ -1,0 +1,60 @@
+{
+  "file": "index.html",
+  "general": {
+    "properties": {
+      "nickname": {
+        "index": 0,
+        "order": 100,
+        "text": "Apelido",
+        "type": "textinput",
+        "value": "NIGHT RUNNER"
+      },
+      "signature": {
+        "index": 1,
+        "order": 101,
+        "text": "Assinatura",
+        "type": "textinput",
+        "value": "Signal found in the rain."
+      },
+      "weathercity": {
+        "index": 2,
+        "order": 102,
+        "text": "Cidade para clima ao vivo",
+        "type": "textinput",
+        "value": ""
+      },
+      "rain": {
+        "index": 3,
+        "order": 103,
+        "text": "Efeitos de chuva",
+        "type": "bool",
+        "value": true
+      },
+      "dim": {
+        "index": 4,
+        "order": 104,
+        "text": "Modo de brilho reduzido",
+        "type": "bool",
+        "value": false
+      },
+      "uilanguage": {
+        "index": 5,
+        "order": 105,
+        "text": "Idioma da interface",
+        "type": "combo",
+        "value": "pt-br",
+        "options": [
+          { "label": "Português (Brasil)", "value": "pt-br" },
+          { "label": "English", "value": "en-us" },
+          { "label": "Automático (navegador)", "value": "auto" }
+        ]
+      }
+    },
+    "supportsaudioprocessing": true
+  },
+  "preview": "preview.jpg",
+  "tags": ["Technology", "Sci-Fi", "Cyberpunk"],
+  "title": "NEON NOIR — Setor Shinjuku 09",
+  "type": "web",
+  "version": 1
+}
