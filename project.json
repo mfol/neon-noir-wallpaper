@@ -37,9 +37,51 @@
         "type": "bool",
         "value": false
       },
-      "aibudget": {
+      "showclock": {
+        "index": 5,
+        "order": 105,
+        "text": "Mostrar card do relógio",
+        "type": "bool",
+        "value": true
+      },
+      "showprofile": {
         "index": 6,
         "order": 106,
+        "text": "Mostrar card do perfil",
+        "type": "bool",
+        "value": true
+      },
+      "showmedia": {
+        "index": 7,
+        "order": 107,
+        "text": "Mostrar card de mídia",
+        "type": "bool",
+        "value": true
+      },
+      "showweather": {
+        "index": 8,
+        "order": 108,
+        "text": "Mostrar card de clima",
+        "type": "bool",
+        "value": true
+      },
+      "showmonitor": {
+        "index": 9,
+        "order": 109,
+        "text": "Mostrar card de telemetria",
+        "type": "bool",
+        "value": true
+      },
+      "showai": {
+        "index": 10,
+        "order": 110,
+        "text": "Mostrar card de uso de IA (requer o auxiliar)",
+        "type": "bool",
+        "value": true
+      },
+      "aibudget": {
+        "index": 11,
+        "order": 111,
         "text": "Orçamento mensal de IA (US$, 0 = sem barra)",
         "type": "slider",
         "min": 0,
@@ -48,23 +90,37 @@
         "value": 0
       },
       "uilanguage": {
-        "index": 5,
-        "order": 105,
+        "index": 12,
+        "order": 112,
         "text": "Idioma da interface",
         "type": "combo",
         "value": "pt-br",
         "options": [
-          { "label": "Português (Brasil)", "value": "pt-br" },
-          { "label": "English", "value": "en-us" },
-          { "label": "Automático (navegador)", "value": "auto" }
+          {
+            "label": "Português (Brasil)",
+            "value": "pt-br"
+          },
+          {
+            "label": "English",
+            "value": "en-us"
+          },
+          {
+            "label": "Automático (navegador)",
+            "value": "auto"
+          }
         ]
       }
     },
     "supportsaudioprocessing": true
   },
   "preview": "preview.jpg",
-  "tags": ["Technology", "Sci-Fi", "Cyberpunk"],
+  "tags": [
+    "Technology",
+    "Sci-Fi",
+    "Cyberpunk"
+  ],
   "title": "NEON NOIR — Setor Shinjuku 09",
   "type": "web",
-  "version": 1
+  "version": 1,
+  "description": "Cidade cyberpunk procedural sob chuva, com relógio, clima ao vivo (opcional), visualização de áudio e dados de mídia do Wallpaper Engine. Botões de mídia e card de uso de IA (Claude Code/Codex) são opcionais e dependem do auxiliar local pack-midia-control; sem ele ficam ocultos."
 }
