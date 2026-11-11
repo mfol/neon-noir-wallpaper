@@ -37,6 +37,16 @@
         "type": "bool",
         "value": false
       },
+      "aibudget": {
+        "index": 6,
+        "order": 106,
+        "text": "Orçamento mensal de IA (US$, 0 = sem barra)",
+        "type": "slider",
+        "min": 0,
+        "max": 2000,
+        "step": 10,
+        "value": 0
+      },
       "uilanguage": {
         "index": 5,
         "order": 105,
