@@ -65,6 +65,7 @@ O Wallpaper Engine **não inicia** o auxiliar, e ele não está configurado para
 O card **USO DE IA** mostra, para o mês corrente: custo estimado, tokens (entrada/saída), projeção até o fim do mês, consumo por agente e o bloco ativo de 5 horas (custo, tempo restante e custo por hora). Os dados vêm da rota `GET /usage` do mesmo auxiliar `pack-midia-control`, que executa o [ccusage](https://github.com/ryoppippi/ccusage) sobre os logs locais. Requer Node.js e o auxiliar em execução; sem ele o card mostra "OFFLINE". O wallpaper consulta a rota a cada 2 minutos.
 
 - Os valores são estimativas calculadas a partir de tokens, não a cobrança oficial nem o percentual restante do plano.
+- **Limites do plano (5 h e semanal):** o card também mostra, para Codex e Claude Code, o percentual usado e quando cada janela reinicia. O Codex vem do último registro nos logs locais de sessão (pode estar um pouco atrás do app). O Claude Code vem de uma status line que grava os percentuais num arquivo local, então só atualiza enquanto uma sessão estiver aberta; veja a configuração no README do `pack-midia-control`. Barras amarelas acima de 70% e rosa acima de 90%.
 - Propriedade `Orçamento mensal de IA (US$)` (`aibudget`, 0 = sem barra): quando maior que zero, o card mostra a barra de progresso e destaca em rosa se passar de 80% ou se a projeção ultrapassar o orçamento.
 
 ## Privacidade e rede
