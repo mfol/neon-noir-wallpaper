@@ -78,3 +78,7 @@ O card **USO DE IA** mostra, para o mês corrente: custo estimado, tokens (entra
 ## Arquivos instalados
 
 Este repositório é a cópia de desenvolvimento em `C:\temp\NeonNoirWallpaper`. O Wallpaper Engine pode manter uma cópia importada separadamente dentro da pasta de projetos do aplicativo; editar este checkout não atualiza automaticamente a cópia importada. O auxiliar de mídia tem checkout separado em `C:\temp\pack-midia-control`.
+
+## Licença
+
+[MIT](LICENSE): use, modifique e distribua à vontade, sem garantia.
